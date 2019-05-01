@@ -71,6 +71,26 @@ def monopoly_with_fourth_tier
     :railroads=>
     {
       :pieces=>4,
+<<<<<<< HEAD
+=======
+      :names=> {
+        
+      },
+      :rent_in_dollars=> {
+        
+      }
+    }
+    
+  }
+end
+
+def monopoly_with_third_tier
+	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
+  monopoly = {
+    :railroads=>
+    {
+      :pieces=>4,
+>>>>>>> e441f7894de18728e8c038e0ee63fe37069ed497
       :names=>
       {
         :reading_railroad=>
